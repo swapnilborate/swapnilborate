@@ -2239,10 +2239,17 @@ input, select, textarea {
 
 		/* Basic */
 
-			body {
+			/*body {
 				padding-top: 44px;
+			}*/
+			.button{
+				max-width: 12em !important;
 			}
-
+			.button.large{
+				padding: 1em !important;
+				font-size: 1em !important;
+				letter-spacing: 0;
+			}
 			body, input, textarea, select {
 				line-height: 1.75em;
 				font-size: 10pt;
